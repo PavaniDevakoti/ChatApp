@@ -1,0 +1,89 @@
+.side-bar-container {
+  background-color: #fcfaf4;
+  padding-top: 10px;
+  width: 25vw;
+}
+
+.conversations-card {
+  display: flex;
+  flex-direction: column;
+  margin-top: 20px;
+}
+.top-card {
+  display: flex;
+  margin-bottom: 10px;
+  padding-left: 15px;
+  justify-content: flex-start;
+}
+.list-card {
+  display: flex;
+}
+.intro-card {
+  background-color: #4a88e6;
+  display: flex;
+}
+.plus-btn {
+  border-radius: 60%;
+  height: 25px;
+  width: 25px;
+  margin-top: 10px;
+  margin-left: 10px;
+}
+.conversations-list {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0px;
+}
+.user-details {
+  display: flex;
+  flex-direction: row;
+  padding: 15px;
+  justify-content: flex-start;
+}
+.name-btn {
+  background-color: rgb(235, 146, 176);
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  border: none;
+  color: #ffffff;
+  font-size: 20px;
+  margin-top: 15px;
+  margin-right: 0px;
+}
+.name-div {
+  display: flex;
+  flex-direction: column;
+}
+
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #444242;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+@media screen and (max-width: 650px) {
+  .username {
+    font-size: 15px;
+  }
+}
+
+.btn-div {
+  display: flex;
+  flex-direction: row;
+}
+.conversations-list-popup {
+  background-color: #daece8;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.converse-input {
+  height: 30px;
+  margin: 10px;
+}

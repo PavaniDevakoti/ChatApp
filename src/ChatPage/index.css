@@ -1,0 +1,197 @@
+.chat-container {
+  background-color: #ebf1f5;
+  padding: 20px;
+  width: 50vw;
+}
+.header-card {
+  display: flex;
+  justify-content: space-between;
+}
+.user-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-right: 20px;
+}
+.trigger {
+  height: 22px;
+  width: 22px;
+  border: none;
+  padding-top: 15px;
+  margin-left: 20px;
+}
+.trigger-button {
+  height: 22px;
+  width: 22px;
+}
+.chat-page {
+  height: 55vh;
+  overflow-y: auto;
+  display: flex;
+}
+.msg-input-card {
+  height: 40px;
+  width: 50vw;
+  border: 1px solid;
+  border-radius: 20px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: #ebf1f5;
+  margin-top: 20px;
+  position: absolute;
+  bottom: 12vh;
+}
+@media screen and (min-width: 650x) {
+  .msg-input-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+}
+
+.msg-input {
+  background-color: transparent;
+  border: none;
+  outline: none;
+  padding-left: 30px;
+  font-size: 16px;
+}
+.messages-list {
+  list-style-type: none;
+}
+
+.total-card {
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
+.message-container {
+  display: flex;
+  flex-direction: column;
+}
+.name-card {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+}
+.username {
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto";
+  color: #444242;
+  margin-left: 10px;
+  margin-right: 5px;
+  margin-bottom: 0px;
+}
+.time {
+  font-size: 16px;
+  font-family: "Roboto";
+  color: #302e2e;
+  padding-top: 6px;
+  align-self: center;
+  margin-left: 10px;
+  margin-bottom: 0px;
+}
+.message-card {
+  display: flex;
+  margin: 0px;
+  padding: 0px;
+}
+.message {
+  background-color: #ffffff;
+  padding: 15px;
+  max-width: 25vw;
+  overflow-wrap: break-word;
+  border-top-left-radius: none;
+  border-top-right-radius: 15px;
+  border-bottom-right-radius: 15px;
+  border-bottom-left-radius: 15px;
+  margin-left: 10px;
+  margin-right: 10px;
+  font-size: 18px;
+  font-family: "Times New Roman";
+  color: #363434;
+}
+
+.like-button {
+  border: none;
+  background-color: #f8e6c9;
+  border-radius: 60%;
+  display: flex;
+  align-self: center;
+  height: 35px;
+  width: 35px;
+  padding: 0px;
+
+  margin-left: 20px;
+  margin-right: 5px;
+}
+.like-counter {
+  display: flex;
+  align-self: center;
+  padding-top: 6px;
+  font-size: 22px;
+  margin-left: 20px;
+  font-family: "Roboto";
+}
+.user-para {
+  font-size: 16px;
+
+  font-family: "Roboto";
+  color: #444242;
+  margin-left: 10px;
+  margin-right: 5px;
+}
+.input-btn-card {
+  display: flex;
+  flex-direction: row;
+}
+.send-btn {
+  background-color: #4891f1;
+  border-radius: 50%;
+  border: none;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 4px;
+  padding-left: 10px;
+  margin-left: 10px;
+  text-align: center;
+}
+.smile-btn {
+  background-color: #2aebc1;
+  border-radius: 50%;
+  border: none;
+  height: 40px;
+  width: 40px;
+  font-size: 20px;
+  color: #ffffff;
+  padding-top: 4px;
+  text-align: center;
+}
+.users-list-popup {
+  background-color: #daece8;
+  width: 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+}
+.close-btn {
+  background-color: crimson;
+  border: none;
+  height: 30px;
+  border-radius: 5px;
+  color: aliceblue;
+}
+.users-list {
+  padding-right: 20px;
+}
+.emojis-container {
+  position: absolute;
+  top: 18vh;
+  left: 60vw;
+}
